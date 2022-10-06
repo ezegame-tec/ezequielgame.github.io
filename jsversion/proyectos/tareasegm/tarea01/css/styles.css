@@ -1,0 +1,78 @@
+.table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    margin: 10rem;
+}
+
+.reticula th {
+    background: rgb(56,56,56);
+    background: linear-gradient(180deg, rgba(56,56,56,1) 10%, rgb(127, 127, 127) 100%);
+    color: #fff;
+}
+
+th {
+    background: rgb(245,245,245);
+    background: linear-gradient(180deg, rgba(245,245,245,1) 0%, rgba(232,232,232,1) 100%);
+    color: #393334;
+}
+
+.kardex tr:nth-child(even) td{
+    background-color: #F6F6F6;
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #e99f33;
+    text-align: center;
+}
+
+.aprobada {
+    background-color: #009900;
+    color: #fff;
+}
+
+.permitida {
+    background-color: #337AB7;
+    color: #fff;
+}
+
+.cursando {
+    background-color: #660066;
+    color: #fff;
+}
+
+.reprobada {
+    background-color: #FFFF00;
+    color: #3D3931;
+}
+
+.especial {
+    background-color: #EC971F;
+    color:#333333;
+}
+
+.especial-reprobado {
+    background-color: #E60000;
+    color: #fff;
+}
+
+.sub-header {
+    color: #EC971F;
+    font-weight: bold;
+}
+
+.concentrado td{
+    padding-inline-start: 3rem;
+    padding-inline-end: 3rem;
+}
+
+.concentrado .sub-header {
+    background: rgb(245,245,245);
+    background: linear-gradient(180deg, rgba(245,245,245,1) 0%, rgba(232,232,232,1) 100%);
+    color: #393334;
+}
