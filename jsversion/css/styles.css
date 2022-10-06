@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -27,7 +28,7 @@
     position: relative;
     top: 30px;
     left: 10px;
-    font: bold 30px Montserrat,Monstserrat, Arial, sans-serif;
+    font: bold 30px Montserrat, Monstserrat, Arial, sans-serif;
     color: #FFFFFF;
 }
 
@@ -246,6 +247,15 @@ figure img {
     color: #fff;
 }
 
-#menuprincipal li:hover a{
+#menuprincipal li:hover a {
     color: #fff;
+}
+
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+}
+
+.articulosprincipales>article {
+    margin: 2rem 0rem;
 }
