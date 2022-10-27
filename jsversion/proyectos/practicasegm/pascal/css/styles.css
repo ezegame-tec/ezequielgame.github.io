@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #1a1f36;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Ubuntu, sans-serif;
+}
+
+.field label {
+    margin-bottom: 1rem;
+    font-size: large;
+}
+
+main>div {
+    margin: 1rem;
+}
+
+.field input {
+    font-size: 16px;
+    line-height: 28px;
+    padding-inline: 1rem;
+    width: 100%;
+    min-height: 44px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgb(84 105 212 / 0.5);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(60, 66, 87, 0.16) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    margin-bottom: 2rem;
+}
+
+.field input:focus {
+    outline: none !important;
+    border: 1px solid #172B4D;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+div#triangulo {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+td {
+    padding-inline: 1rem;
+}
+
+.btn-principal {
+    margin: 1rem 0;
+    line-height: 28px;
+    padding-inline: 1rem;
+    min-height: 44px;
+    background-color: #ffec64;
+    border-radius: 28px;
+    border: 1px solid #ffaa22;
+    display: inline-block;
+    cursor: pointer;
+    color: #333333;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffee66;
+}
+
+.btn-principal:hover {
+    background-color: #ffab23;
+}
+
+.btn-principal:active {
+    position: relative;
+    top: 1px;
+}
+
+
+.btn-secundario {
+    margin: 1rem 0;
+    line-height: 28px;
+    padding-inline: 1rem;
+    min-height: 44px;
+    background-color: #0b92a4;
+    border-radius: 28px;
+    border: 1px solid #172B4D;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #0B6FA4;
+}
+
+.btn-secundario:hover {
+    background-color: #172B4D;
+}
+
+.btn-secundario:active {
+    position: relative;
+    top: 1px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.toast {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+.toast.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+.toast.success {
+    background-color: #4caf50;
+}
+
+.toast.error {
+    background-color: #ff5252;
+}

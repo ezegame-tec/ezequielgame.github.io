@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>EGM - PWEB</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Este es un documento HTML5">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="/jsversion/css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script type="text/javascript" src="./js/app.js"></script>
+</head>
+
+<body>
+    <header class="cabeceralogo">
+        <div>
+            <a href="/jsversion/index.html"><img src="/jsversion/img/logo.png" alt="Logo ITQ"></a>
+            <h1>Programación WEB - Ezequiel Gavidia Mejía</h1>
+        </div>
+    </header>
+    <nav id="menuprincipal">
+        <div>
+            <ul id="listamenu">
+                <li><a href="/jsversion/index.html">Principal</a></li>
+                <li><a href="/jsversion/proyectos/index.html">Portafolio</a>
+                    <ul>
+                        <li><a href="/jsversion/proyectos/practicas.html">Prácticas</a></li>
+                        <li><a href="/jsversion/proyectos/tareas.html">Tareas</a></li>
+                    </ul>
+                </li>
+                <li><a href="/jsversion/contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="wrapper">
+    
+        <h1>Triángulo de Pascal</h1>
+
+        <div class="field">
+            <label for="n">Cantidad</label>
+            <input type="number" name="n" id="n">
+        </div>
+
+        <div class="d-inline field">
+            <button class="btn-principal" onclick="generarTriangulo()">Calcular</button>
+            <button class="btn-secundario" onclick="limpiar()">Limpiar</button>
+        </div>
+
+        <div id="triangulo"></div>
+    
+    </main>
+    <footer id="pielogo" class="footer">
+        <div class="footer">
+            <section class="seccionpie">
+                <h1>Sitio Web</h1>
+                <p><a href="/jsversion/index.html">Principal</a></p>
+                <p><a href="/jsversion/proyectos/index.html">Portafolio</a></p>
+                <p><a href="/jsversion/proyectos/practicas.html">&emsp;Prácticas</a></p>
+                <p><a href="/jsversion/proyectos/tareas.html">&emsp;Tareas</a></p>
+            </section>
+            <section class="seccionpie">
+                <h1>Ayuda</h1>
+                <p><a href="/jsversion/contacto.html">Contacto</a></p>
+            </section>
+            <section class="seccionpie">
+                <address>Querétaro, México</address>
+                <small>&copy; Derechos Reservados 2022</small>
+            </section>
+            <div class="recuperar"></div>
+        </div>
+    </footer>
+</body>
+</html>
